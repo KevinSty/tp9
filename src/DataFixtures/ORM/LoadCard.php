@@ -6,8 +6,7 @@ use App\Entity\Card;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\Persistence\ObjectManager;
 
-class LoadCard extends Fixture
-{
+class LoadCard extends Fixture {
     const USER_PASSWORD = 'user';
 
     public function load(ObjectManager $manager)

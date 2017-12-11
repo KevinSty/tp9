@@ -2,7 +2,6 @@
 
 namespace App\Controller;
 
-
 use App\AppAccess;
 use App\Entity\Card;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -12,8 +11,8 @@ use Symfony\Component\Security\Core\Authorization\AuthorizationCheckerInterface;
 /**
  * @Route(path="/card")
  */
-class CardController extends Controller
-{
+class CardController extends Controller {
+
     /**
      * @Route(
      *     path="",
